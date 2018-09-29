@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/comment.css">
+    <link rel="stylesheet" href="css/log_reg.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="from-wrap loginBox">
+            <h2 class="title">用户登录</h2>
+            <form action="" name="login-form">
+                <div>
+                    <input type="text" id="username" autocomplete="off" placeholder="请输入用户名">
+                </div>
+                <div>
+                    <input type="password" id="password" placeholder="请输入密码" autocomplete="off">
+                </div>
+                <div>
+                    <button type="button" class="btnL login">登录</button>
+                    <button type="button" class="btnR register">注册</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/ajax.js"></script>
+    <script src="js/dologin.js"></script>
+    <script>
+        dologin.init();
+    </script>
+</body>
+
+</html>
